@@ -1,0 +1,100 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: rgb(25, 25, 25);
+}
+
+#container {
+	position: relative;
+	background-color: rgb(50, 50, 50);
+	width: 100%;
+	height: 630px;
+}
+
+#converterBtns {
+	/*border: 1px solid red;*/
+	border-radius: 200px;
+	box-shadow: -1px 2px 2px rgb(30, 30, 30), 1px -2px 2px rgb(60, 60, 60);
+	width: 30%;
+	height: 20px;
+	position: relative;
+	top: 90%;
+	margin: auto;
+	padding: 10px;
+}
+
+.selection-btn-style {
+	position: absolute;
+	border: 1px solid red;
+}
+
+.selection-btn-style.left {
+	left: 0px;
+}
+
+.selection-btn-style.right {
+	right: 0px;
+}
+
+#or {
+	position: absolute;
+}
+
+.tableRaw {
+	position: absolute;
+	//	border: 1px solid red;	
+	width: auto;
+
+}
+
+.tableRaw.left {
+	left: -450px;
+}
+
+.tableRaw.left li {
+	//border: 1px solid red;
+	box-shadow: -1px 2px 2px rgb(20, 20, 20), 1px -2px 2px rgb(60, 60, 60);
+	border-radius: 200px;
+	padding: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 10px;
+	position: relative;
+	display: inline-block;
+	color: rgb(170, 170, 170);
+	cursor: pointer;
+}
+
+.tableRaw.left li:hover {
+	//background-color: red;
+}
+
+.tableRaw.left li:active {
+	//background-color: lightblue;
+	transform: translateY(2px);
+	box-shadow: -1px 2px 2px rgb(35, 35, 35), 1px -2px 2px rgb(55, 55, 55);
+}
+
+.tableRaw.right {
+	right: -450px;
+}
+
+.tableRaw.right li {	
+	//border: 1px solid red;
+	box-shadow: -1px 2px 2px rgb(20, 20, 20), 1px -2px 2px rgb(60, 60, 60);
+	border-radius: 200px;
+	padding: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 10px;
+	position: relative;
+	display: inline-block;
+	color: rgb(170, 170, 170);
+}
+
+
+
+
