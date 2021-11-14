@@ -74,7 +74,8 @@ body {
 
 .tableRaw.left li a {
 	text-decoration-line: none;
-	border: 1px solid red;
+	color: white;
+	//border: 1px solid red;
 }
 
 .tableRaw.left li:active {
