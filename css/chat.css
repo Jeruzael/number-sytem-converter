@@ -1,0 +1,10 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 100%;
+	height: 2000vh;
+	background-color: rgb(25, 25, 25);
+}

@@ -1,1 +1,3 @@
-console.log("test");
+import {initializeApp} from "firebase/app";
+import {getFirestore} from "firebase/firestore";
+

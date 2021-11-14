@@ -28,7 +28,7 @@ body {
 
 .selection-btn-style {
 	position: absolute;
-	border: 1px solid red;
+	//border: 1px solid red;
 }
 
 .selection-btn-style.left {
@@ -45,7 +45,7 @@ body {
 
 .tableRaw {
 	position: absolute;
-	//	border: 1px solid red;	
+	//border: 1px solid red;	
 	width: auto;
 
 }
@@ -70,6 +70,11 @@ body {
 
 .tableRaw.left li:hover {
 	//background-color: red;
+}
+
+.tableRaw.left li a {
+	text-decoration-line: none;
+	border: 1px solid red;
 }
 
 .tableRaw.left li:active {

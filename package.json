@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/Jeruzael/number-sytem-converter/issues"
   },
-  "homepage": "https://github.com/Jeruzael/number-sytem-converter#readme"
+  "homepage": "https://github.com/Jeruzael/number-sytem-converter#readme",
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  },
+  "dependencies": {
+    "firebase": "^9.4.1"
+  }
 }
