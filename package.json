@@ -1,0 +1,23 @@
+{
+  "name": "numsyscon",
+  "version": "1.0.0",
+  "description": "Thesis archive that stores thesis books records and a borrowing system.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jeruzael/number-sytem-converter.git"
+  },
+  "keywords": [
+    "thesis",
+    "archive"
+  ],
+  "author": "BSCS3A",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Jeruzael/number-sytem-converter/issues"
+  },
+  "homepage": "https://github.com/Jeruzael/number-sytem-converter#readme"
+}
