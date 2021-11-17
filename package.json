@@ -1,0 +1,25 @@
+{
+  "name": "numsysconv2.0.0",
+  "version": "2.0.0",
+  "description": "number system converter version 2.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeruzael/number-sytem-converter.git"
+  },
+  "keywords": [
+    "numsysconsv2"
+  ],
+  "author": "Jeruzael",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Jeruzael/number-sytem-converter/issues"
+  },
+  "homepage": "https://github.com/Jeruzael/number-sytem-converter#readme",
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  }
+}

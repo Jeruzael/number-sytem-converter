@@ -1,3 +1,8 @@
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -12,30 +17,49 @@ body {
 	flex-direction: column;
 	width: 100%;
 	height: 100vh;
-	background-color: rgb(30, 30, 30);
+	background-color: rgb(225, 225, 225);
 	//position: absolute;
 }
 
 #header {
+	background-color: rgb(245, 245, 245);
+	box-shadow: 0px 1px 3px rgb(200, 200, 200);
 	font-size: 5vmin;
-	color: white;
-	border: 1px solid red;
+	color: rgb(50, 50, 50);
+	//border: 1px solid red;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	height: 7vh;
+	font-family: Estonia, cursive;
+	font-family: lobster, cursive;
+	text-shadow: 1px -1px 2px rgb(100, 100, 100);
 }
 
 #titleHeader {
-	border: 1px solid red;
+	//border: 1px solid red;
 	margin: auto;
+	
 }
 
-#menu {
-	border: 1px solid green;
+#menux {
+	//border: 1px solid green;
+	width: 12vw;
+	margin-top: 0.5vh;
+	
+}
+
+#menux span{
+	border: 1px solid red;
+	border-radius: 5px;
+	margin: auto;
+	//margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #solutionSpace {
-	border: 1px solid blue;
+	//border: 1px solid blue;
 	display: flex;
 	
 	height: 80vh;
@@ -44,17 +68,19 @@ body {
 #content {
 	width: 90vw;
 	height: 70vh;
-	border: 1px solid red;
+	//border: 1px solid red;
 	margin: auto;
 }
 
 #foot {
 	display: flex;
 	flex-direction: row;
-	border: 1px solid violet;
+	//border: 1px solid violet;
 	//position: absolute;
 	bottom: 0px;
 	height: 10vh;
+	background-color: rgb(230, 230, 230);
+	box-shadow: 0px -1px 3px rgb(255, 255, 255);
 }
 
 #con1, #convert, #con2 {
