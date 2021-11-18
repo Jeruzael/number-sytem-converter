@@ -19,6 +19,7 @@ body {
 	height: 100vh;
 	background-color: rgb(225, 225, 225);
 	//position: absolute;
+	overflow: hidden;
 }
 
 #header {
@@ -77,7 +78,7 @@ body {
 #content {
 	width: 90vw;
 	height: 70vh;
-	//border: 1px solid red;
+	border: 1px solid red;
 	margin: auto;
 }
 
@@ -91,6 +92,7 @@ body {
 	height: 10vh;
 	background-color: rgb(225, 225, 225);
 	box-shadow: 0px -1px 3px rgb(255, 255, 255);
+	font-size: 4vmin;
 }
 
 #con1, #convert, #con2 {
@@ -148,13 +150,14 @@ body {
 #con1 table {
 	position: absolute;
 	top: 56vh;
-	margin-left: -1.5vw;
+	margin-left: -2vw;
 	//border: 1px solid red;
 	display: none;
 }
 
 #con1 td {
 	//border: 1px solid red;
+	display: flex;
 	border-radius: 5px;
 	padding-left: 0.5vw;
 	padding-right: 0.5vw;
@@ -162,8 +165,10 @@ body {
 	padding-bottom: 2vh;
 	background-color: rgb(30, 30, 30);
 	color: white;
-
+	justify-content: center;
 }
+
+
 
 
 
@@ -191,13 +196,14 @@ body {
 #con2 table {
 	position: absolute;
 	top: 56vh;
-	margin-left: -1.5vw;
+	margin-left: -2.5vw;
 	//border: 1px solid red;
 	display: none;
 }
 
 #con2 td {
 	//border: 1px solid red;
+	display: flex;
 	border-radius: 5px;
 	padding-left: 0.5vw;
 	padding-right: 0.5vw;
@@ -205,6 +211,7 @@ body {
 	padding-bottom: 2vh;
 	background-color: rgb(30, 30, 30);
 	color: white;
+	justify-content: center;
 
 }
 
