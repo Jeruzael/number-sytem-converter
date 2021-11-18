@@ -42,6 +42,7 @@ body {
 	
 }
 
+/*---------------------------menu:  ----------------------------------*/
 #menux {
 	//border: 1px solid green;
 	width: 12vw;
@@ -57,8 +58,15 @@ body {
 	//margin-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
+	cursor: pointer;
 }
 
+#menux span:hover {
+	color: red;
+
+}
+
+/*---------------------------Solution space:  ----------------------------------*/
 #solutionSpace {
 	//border: 1px solid blue;
 	display: flex;
@@ -73,6 +81,7 @@ body {
 	margin: auto;
 }
 
+/*---------------------------Footer:  ----------------------------------*/
 #foot {
 	display: flex;
 	flex-direction: row;
@@ -88,6 +97,7 @@ body {
 	//border: 1px solid gray;
 	box-shadow: 0px 1px 2px rgb(100, 100, 100), 0px -1px 3px rgb(255, 255, 255) ;
 	margin: auto;
+	cursor: pointer;
 }
 
 /*---------------------------convert button:  ----------------------------------*/
@@ -103,6 +113,7 @@ body {
 
 #convert:hover {
 	background-color: rgb(25, 25, 25);
+	box-shadow: -1px 1px 3px rgb(10, 10, 10), 1px 0px 4px rgb(50, 250, 250);
 	color: white;
 }
 
@@ -124,13 +135,37 @@ body {
 
 #con1:hover {
 	background-color: rgb(25, 25, 25);
+	box-shadow: -1px 1px 3px rgb(10, 10, 10), 1px -1px 3px rgb(50, 250, 250);
 	color: white;
 }
 
 #con1:active {
 	background-color: rgb(90, 120, 90);
 	color: white;
+
 }
+
+#con1 table {
+	position: absolute;
+	top: 56vh;
+	margin-left: -1.5vw;
+	//border: 1px solid red;
+	display: none;
+}
+
+#con1 td {
+	//border: 1px solid red;
+	border-radius: 5px;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	background-color: rgb(30, 30, 30);
+	color: white;
+
+}
+
+
 
 /*---------------------------select numSYs button 2:  ----------------------------------*/
 #con2 {
@@ -144,12 +179,33 @@ body {
 
 #con2:hover {
 	background-color: rgb(25, 25, 25);
+	box-shadow: -1px 1px 3px rgb(10, 10, 10), 1px -1px 3px rgb(50, 250, 250);
 	color: white;
 }
 
 #con2:active {
 	background-color: rgb(90, 120, 90);
 	color: white;
+}
+
+#con2 table {
+	position: absolute;
+	top: 56vh;
+	margin-left: -1.5vw;
+	//border: 1px solid red;
+	display: none;
+}
+
+#con2 td {
+	//border: 1px solid red;
+	border-radius: 5px;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	background-color: rgb(30, 30, 30);
+	color: white;
+
 }
 
 /*---------------------------Comment:  ----------------------------------*/
